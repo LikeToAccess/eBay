@@ -3,7 +3,7 @@
 # description       : Grabs data from eBay search links
 # author            : LikeToAccess
 # email             : liketoaccess@protonmail.com
-# date              : 10-26--2021
+# date              : 10-26-2021
 # version           : v1.0
 # usage             : python main.py
 # notes             :
