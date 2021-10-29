@@ -95,13 +95,6 @@ def main(url):
 			"div/div[2]/div[1]/div/span[1]"  # Date
 		]
 	)
-	# combined_metadata = [{metadata[0].split("|")[1]: metadata[1]} for metadata in combined_metadata]
-	# str, [list], ... str, [list]
-	# print(combined_metadata)
-	# combined_metadata = [metadata[1].insert(0, metadata[0].split("")[1]) for metadata in combined_metadata]
-	# /html/body/div[5]/div[5]/div[2]/div[1]/div[2]/ul/li[3]/div/div[2]/div[3]/div[1]/span/span
-	# /html/body/div[5]/div[5]/div[2]/div[1]/div[2]/ul/li[3]
-
 
 	print(f"Number of listings:       {len(combined_metadata)}")
 	combined_metadata = remove_by_keywords(
