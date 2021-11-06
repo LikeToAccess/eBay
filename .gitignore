@@ -5,6 +5,7 @@ __pycache__/
 
 selenium_data
 .DS_Store
+token.json
 
 # C extensions
 *.so
