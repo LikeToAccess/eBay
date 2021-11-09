@@ -18,7 +18,21 @@ from google.oauth2.credentials import Credentials
 
 
 class Sheets:
-	def __init__(self, spreadsheet_id="1S8EEc6qQA0o-dUIjvHWBEg94pl20Q6hbGurJvwm4FhY"):
+	"""Easily read and write from any Google Sheet accessible from your Google Account.
+
+	On first run user will be prompted to sign-in with Google, this will give the program access to all of the same Google Sheets the user has access to.
+
+	"""
+	def __init__(self, spreadsheet_id):
+		"""Runs all Authentication and setup.
+
+		Note:
+			The spreadsheet_id is contained within the address bar, "https://docs.google.com/spreadsheets/d/fo-OB4r/edit#gid=0" where "fo-OB4r" would be the spreadsheet_id.
+
+		Args:
+			spreadsheet_id (str): The unique ID of the Google Sheet page that should be edited.
+
+		"""
 		self.scopes = ["https://www.googleapis.com/auth/spreadsheets"]
 		self.spreadsheet_id = spreadsheet_id
 		self.creds = authenticate(self.scopes)
@@ -78,6 +92,25 @@ class Sheets:
 
 
 def authenticate(scopes):
+	"""Generates token.json to allow access to the Google Sheet.
+
+	Args:
+		scopes (list): A list of the permissions required to read and write to Google Sheets on the user's behalf.
+
+	Returns:
+		An OAuth 2.0 credentials object used to login as a Google Account with specified permissions listed in the scopes argument
+
+	Examples:
+		>>> authenticate(["https://www.googleapis.com/auth/spreadsheets"])  # Running the program for the first time.
+		No valid credentials found, please authenticate for Google Sheets API...         
+		Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&...&access_type=offline
+		Credentials for Google Sheets API saved succesfully.
+		
+		>>> authenticate(["https://www.googleapis.com/auth/spreadsheets"])  # Running the program after token.json was generated.
+		Authenticating with Google Sheets API...
+		Using existing credentials for Google Sheets API.
+
+	"""
 	creds = None
 	print("Authenticating with Google Sheets API...")
 	if os.path.exists("token.json"):
@@ -99,7 +132,7 @@ def authenticate(scopes):
 
 
 if __name__ == "__main__":
-	sheets = Sheets()
+	sheets = Sheets("1S8EEc6qQA0o-dUIjvHWBEg94pl20Q6hbGurJvwm4FhY")
 	range_name_ = "Copy of Data!A1:ZZ10000"
 	print(f"Values for range, \"{range_name_}\":")
 	print(sheets.read(range_name_))
@@ -107,5 +140,3 @@ if __name__ == "__main__":
 	# 	for item in row:
 	# 		print(item)
 	# help(sheets.write)
-
-	# DOCSTRINGS FOLLOW THE GOOGLE FORMAT FOUND HERE: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
