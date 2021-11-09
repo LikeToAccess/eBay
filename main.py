@@ -11,6 +11,7 @@
 # py version        : 3.9.7 (must run on 3.6 or higher)
 #==============================================================================
 import os
+import time
 from tqdm import tqdm
 from selenium import webdriver
 from selenium.common.exceptions import *
@@ -18,6 +19,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.support import expected_conditions as EC
+import sheets
+
 
 
 class Scraper:
@@ -79,19 +82,36 @@ def remove_by_keywords(data, keywords):
 
 def pad(stri, leng):
 	result = stri
-	for i in range(len(stri),leng):
+	for _ in range(len(stri),leng):
 		result = result+" "
 	return result
+
+def captcha(url):
+	"""Checks if the current screen is waiting for a captcha response.
+
+	Returns:
+		True if the current screen is awaiting a captcha, otherwise False
+
+	"""
+	return "https://www.ebay.com/splashui/captcha" in url
 
 def main(url):
 	scraper = Scraper(minimize=False)
 	scraper.open_link(url)
+	# captcha = scraper.driver.find_element(
+	# 	By.XPATH, "//*[@id=\"areaTitle\"]/h1"
+	# ).text == "Please verify yourself to continue"
+	if captcha(scraper.driver.current_url):
+		print("Please solve the captcha to continue...")
+		while captcha(scraper.driver.current_url):
+			time.sleep(0.5)
+		print("Captcha solve complete, continuing to search...")
 	combined_metadata = scraper.get_data(
 		"//li[@class=\"s-item s-item__pl-on-bottom\"]",
 		[
-			"div/div[2]/a/h3",  # Listing Title
-			"div/div[2]/div[4]/div",  # Price
-			"div/div[2]/div[3]/div",  # Price
+			"div/div[2]/a/h3",               # Listing Title
+			"div/div[2]/div[4]/div",         # Price
+			"div/div[2]/div[3]/div",         # Price
 			"div/div[2]/div[1]/div/span[1]"  # Date
 		]
 	)
