@@ -1,0 +1,648 @@
+{
+    "MacBook Pro": [
+        {
+            "model_identifier": "Mac14,7",
+            "model": "A2338",
+            "emc": "EMC 8162",
+            "year": "2022",
+            "part_number": "MNEH3LL/A",
+            "description": "MacBook Pro (13-inch, 3.49GHz Apple M2 8 CPU/10 GPU, 2022)",
+            "parts": {
+                "display assembly": 313.3,
+                "battery": 759.95,
+                "palmrest": 850.94,
+                "trackpad": 925.35
+            }
+        },
+        {
+            "model_identifier": "MacBookPro18,4",
+            "model": "A2442",
+            "emc": "EMC 3650",
+            "year": "2021",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (14-inch, 3.2GHz Apple M1 Max 10 CPU/32 GPU, 2021)",
+            "parts": {
+                "display assembly": 661.52,
+                "battery": 1269.73,
+                "palmrest": 1482.49,
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro18,3",
+            "model": "A2442",
+            "emc": "EMC 3650",
+            "year": "2021",
+            "part_number": "MKGT3LL/A",
+            "description": "MacBook Pro (14-inch, 3.2GHz Apple M1 Pro 10 CPU/16 GPU, 2021)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro18,2",
+            "model": "A2485",
+            "emc": "EMC 3651",
+            "year": "2021",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (16-inch, 3.2GHz Apple M1 Max 10 CPU/32 GPU, 2021)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro18,1",
+            "model": "A2485",
+            "emc": "EMC 3651",
+            "year": "2021",
+            "part_number": "MK1E3LL/A",
+            "description": "MacBook Pro (16-inch, 3.2GHz Apple M1 Pro 10 CPU/16 GPU, 2021)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro17,1",
+            "model": "A2338",
+            "emc": "EMC 3578",
+            "year": "2020",
+            "part_number": "MYDA2LL/A",
+            "description": "MacBook Pro (13-inch, 3.2GHz Apple M1 8 CPU/8 GPU, 2020)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro16,4",
+            "model": "A2141",
+            "emc": "EMC 3347",
+            "year": "2020",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (16-inch, 2.4GHz Intel Core i9, 2020)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro16,3",
+            "model": "A2289",
+            "emc": "EMC 3456",
+            "year": "2020",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 1.7Hz Intel Core i7, 2020)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro16,2",
+            "model": "A2251",
+            "emc": "EMC 3348",
+            "year": "2020",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 2.3Hz Intel Core i7, 2020)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro16,1",
+            "model": "A2141",
+            "emc": "EMC 3347",
+            "year": "2019",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (16-inch, 2.4Hz Intel Core i9, 2019)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro15,4",
+            "model": "A2159",
+            "emc": "EMC 3301",
+            "year": "2019",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 1.7Hz Intel Core i7, 2019)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro15,3",
+            "model": "A1990",
+            "emc": "EMC 3359",
+            "year": "2019",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.4Hz Intel Core i9, 2019)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro15,2",
+            "model": "A1989",
+            "emc": "EMC 3214",
+            "year": "2018",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 2.7GHz Intel Core i7, 2018)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro15,1",
+            "model": "A1990",
+            "emc": "EMC 3215",
+            "year": "2018",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.9GHz Intel Core i9, 2018)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro14,3",
+            "model": "A1707",
+            "emc": "EMC 3162",
+            "year": "Mid/Touch Bar 2017",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 3.1GHz Intel Core i7, Mid/Touch Bar 2017)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro14,2",
+            "model": "A1706",
+            "emc": "EMC 3163",
+            "year": "Mid 2017",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 3.5GHz Intel Core i7, Mid 2017)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro14,1",
+            "model": "A1708",
+            "emc": "EMC 3164",
+            "year": "Mid 2017",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 2.5GHz Intel Core i7, Mid 2017)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro13,3",
+            "model": "A1707",
+            "emc": "EMC 3072",
+            "year": "Late/Touch Bar 2016",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.9GHz Intel Core i7, Late/Touch Bar 2016)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro13,2",
+            "model": "A1706",
+            "emc": "EMC 3071",
+            "year": "Late/Touch Bar 2016",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 3.3GHz Intel Core i7, Late/Touch Bar 2016)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro13,1",
+            "model": "A1708",
+            "emc": "EMC 2978",
+            "year": "Late 2016",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 2.4GHz Intel Core i7, Late 2016)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro12,1",
+            "model": "A1502",
+            "emc": "EMC 2835",
+            "year": "Early 2015",
+            "part_number": "MJLU2LL/A",
+            "description": "MacBook Pro (13-inch, 3.1GHz Intel Core i7, Early 2015)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro11,5",
+            "model": "A1398",
+            "emc": "EMC 2910",
+            "year": "Mid 2015 DG",
+            "part_number": "MJLU2LL/A",
+            "description": "MacBook Pro (15-inch, 2.8GHz Intel Core i7, Mid 2015 DG)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro11,4",
+            "model": "A1398",
+            "emc": "EMC 2881",
+            "year": "Mid 2015 IG",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.8GHz Intel Core i7, Mid 2015 IG)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro11,3",
+            "model": "A1398",
+            "emc": "EMC 2881",
+            "year": "Mid 2014 DG",
+            "part_number": "MGXG2LL/A",
+            "description": "MacBook Pro (15-inch, 2.8GHz Intel Core i7, Mid 2014 DG)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro11,2",
+            "model": "A1502",
+            "emc": "EMC 2875",
+            "year": "Mid 2014 IG",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.8GHz Intel Core i7, Mid 2014 IG)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro11,1",
+            "model": "A1502",
+            "emc": "EMC 2875",
+            "year": "Mid 2014",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 3.0GHz Intel Core i7, Mid 2014)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro10,2",
+            "model": "A1425",
+            "emc": "EMC 2672",
+            "year": "Early 2013",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (13-inch, 3.0GHz Intel Core i7, Early 2013)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro10,1",
+            "model": "A1398",
+            "emc": "EMC 2673",
+            "year": "Mid 2012",
+            "part_number": "ME698LL/A",
+            "description": "MacBook Pro (13-inch, 2.9GHz Intel Core i7, Mid 2012)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro9,2",
+            "model": "A1278",
+            "emc": "EMC 2554",
+            "year": "Mid 2012",
+            "part_number": "MD102LL/A",
+            "description": "MacBook Pro (13-inch, 2.9GHz Intel Core i7, Mid 2012)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro9,1",
+            "model": "A1286",
+            "emc": "EMC 2556",
+            "year": "Mid 2012",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.7GHz Intel Core i7, Mid 2012)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro8,3",
+            "model": "A1297",
+            "emc": "EMC 2564",
+            "year": "Late 2011",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (17-inch, 2.5GHz Intel Core i7, Late 2011)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro8,2",
+            "model": "A1286",
+            "emc": "EMC 2563",
+            "year": "Late 2011",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.5GHz Intel Core i7, Late 2011)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro8,1",
+            "model": "A1278",
+            "emc": "EMC 2419",
+            "year": "Late 2011",
+            "part_number": "MC375LL/A",
+            "description": "MacBook Pro (13-inch, 2.8GHz Intel Core i7, Late 2011)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro7,1",
+            "model": "A1278",
+            "emc": "EMC 2351",
+            "year": "Mid 2010",
+            "part_number": "MC375LL/A",
+            "description": "MacBook Pro (13-inch, 2.66GHz Intel Core 2 Duo, Mid 2010)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro6,2",
+            "model": "A1286",
+            "emc": "EMC 2353",
+            "year": "Mid 2010",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 2.8GHz Intel Core i7, Mid 2010)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro6,1",
+            "model": "A1297",
+            "emc": "EMC 2352",
+            "year": "Mid 2010",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (17-inch, 2.8GHz Intel Core i7, Mid 2010)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro5,5",
+            "model": "A1278",
+            "emc": "EMC 2326",
+            "year": "Mid 2009",
+            "part_number": "MB991LL/A",
+            "description": "MacBook Pro (13-inch, 2.53GHz Intel Core 2 Duo, Mid 2009)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro5,4",
+            "model": "A1286",
+            "emc": "EMC 2324",
+            "year": "Mid 2009",
+            "part_number": "MC118LL/A",
+            "description": "MacBook Pro (15-inch, 2.53GHz Intel Core 2 Duo, Mid 2009)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro5,3",
+            "model": "A1286",
+            "emc": "EMC 2324",
+            "year": "Mid 2009",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (15-inch, 3.06GHz Intel Core 2 Duo, Mid 2009)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro4,1",
+            "model": "A1261",
+            "emc": "EMC 2199",
+            "year": "Mid 2009",
+            "part_number": "MB985LL/A",
+            "description": "MacBook Pro (15-inch, 2.66GHz Intel Core 2 Duo, Mid 2009)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro5,2",
+            "model": "A1297",
+            "emc": "EMC 2272",
+            "year": "Mid 2009",
+            "part_number": "MB166LL/A",
+            "description": "MacBook Pro (17-inch, 3.06GHz Intel Core 2 Duo, Mid 2009)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro3,1",
+            "model": "A1229",
+            "emc": "EMC 2137",
+            "year": "Mid/Late 2007",
+            "part_number": "BTO/CTO",
+            "description": "MacBook Pro (17-inch, 2.6GHz Intel Core 2 Duo, Mid/Late 2007)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro2,2",
+            "model": "A1211",
+            "emc": "EMC 2120",
+            "year": "Late 2006",
+            "part_number": "MA610LL",
+            "description": "MacBook Pro (15-inch, 2.33GHz Intel Core 2 Duo, Late 2006)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro2,1",
+            "model": "A1212",
+            "emc": "EMC N/A",
+            "year": "Late 2006",
+            "part_number": "MA611LL/A",
+            "description": "MacBook Pro (17-inch, 2.33GHz Intel Core 2 Duo, Late 2006)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro1,2",
+            "model": "A1151",
+            "emc": "EMC 2102",
+            "year": "Early 2006",
+            "part_number": "MA092LL/A",
+            "description": "MacBook Pro (17-inch, 2.16GHz Intel Core Duo, Early 2006)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        },
+        {
+            "model_identifier": "MacBookPro1,1",
+            "model": "A1150",
+            "emc": "EMC 2101",
+            "year": "Glossy",
+            "part_number": "MA601LL",
+            "description": "MacBook Pro (15-inch, 2.16GHz Intel Core Duo, Early 2006, Glossy)",
+            "parts": {
+                "display assembly": [],
+                "battery": [],
+                "palmrest": [],
+                "trackpad": []
+            }
+        }
+    ]
+}

@@ -131,7 +131,7 @@ def authenticate(scopes):
 	return creds
 
 
-if __name__ == "__main__":
+def main():
 	sheets = Sheets("1S8EEc6qQA0o-dUIjvHWBEg94pl20Q6hbGurJvwm4FhY")
 	range_name_ = "Copy of Data!A1:ZZ10000"
 	print(f"Values for range, \"{range_name_}\":")
@@ -140,3 +140,7 @@ if __name__ == "__main__":
 	# 	for item in row:
 	# 		print(item)
 	# help(sheets.write)
+
+
+if __name__ == "__main__":
+	main()
